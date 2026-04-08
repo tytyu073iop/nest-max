@@ -12,12 +12,14 @@ this is messenger to use with requests
 # Functional requirements
 - [x] send message by POST
 - [x] get unread messages by GET
-- [ ] keep messages in db
+- [ ] keep messages and users in db
 - [ ] remove them when read
 - [ ] check if recipient exisits on send
-- [ ] check POST body
-- [ ] separate sender and recipient messages class
+- [x] check POST body
+- [x] separate sender and recipient messages class
 - [ ] authenticate and authorize user
+- [ ] dockerfile
+- [ ] docker-compose
 
 # Project setup
 

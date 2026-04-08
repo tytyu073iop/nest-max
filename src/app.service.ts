@@ -1,13 +1,13 @@
 import { Injectable } from '@nestjs/common';
-import { Message } from './message';
+import { MessageToReceive, MessageToSend } from './messages';
 
 @Injectable()
 export class AppService {
-  getMessages(): Message[] {
-    return [{sender: 'Adorabat', message: 'Have a great day!'}];
+  getMessages(): MessageToReceive[] {
+    return [{ sender: 'Adorabat', message: 'Have a great day!' }];
   }
 
-  sendMessage(message: Message): void {
-    
+  sendMessage(message: MessageToSend): void {
+
   }
 }
