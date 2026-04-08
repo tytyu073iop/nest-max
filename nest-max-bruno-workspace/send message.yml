@@ -1,0 +1,26 @@
+info:
+  name: send message
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://localhost:3000
+  body:
+    type: json
+    data: '{"recipient": "Adorabat", "message": "Have a great day!"}'
+  auth: inherit
+
+runtime:
+  scripts:
+    - type: tests
+      code: |-
+        test('should create message carefully', () => {
+          expect(res.getStatus()).to.equal(201);
+        });
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
