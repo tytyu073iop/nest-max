@@ -20,6 +20,7 @@ this is messenger to use with requests
 - [ ] authenticate and authorize user
 - [ ] dockerfile
 - [ ] docker-compose
+- [x] add CORS
 
 # Project setup
 
