@@ -19,7 +19,7 @@ this is messenger to use with requests
 - [x] separate sender and recipient messages class
 - [ ] authenticate and authorize user
 - [x] dockerfile
-- [ ] docker-compose
+- [x] docker-compose
 - [x] add CORS
 
 # Project setup

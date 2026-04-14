@@ -1,0 +1,9 @@
+services:
+  api:
+    build:
+      context: .
+      target: production
+    container_name: nest-max
+    ports:
+      - "${PORT:-3000}:3000"
+    restart: unless-stopped
