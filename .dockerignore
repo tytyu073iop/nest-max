@@ -1,3 +1,23 @@
-nest-max-bruno-workspace
-node_modules
-dist
+# Build artifacts
+dist/
+node_modules/
+*.log
+
+# Workspace & Config
+.vscode/
+.git/
+.gitignore
+nest-max-bruno-workspace/
+scripts/
+
+# Docker specific
+dockerfile
+.dockerignore
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+test/

@@ -18,7 +18,7 @@ this is messenger to use with requests
 - [x] check POST body
 - [x] separate sender and recipient messages class
 - [ ] authenticate and authorize user
-- [ ] dockerfile
+- [x] dockerfile
 - [ ] docker-compose
 - [x] add CORS
 
